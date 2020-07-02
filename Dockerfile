@@ -1,5 +1,5 @@
 #use armv7hf compatible base image
-FROM balenalib/armv7hf-debian:buster-20191223
+FROM balenalib/armv7hf-debian:latest
 
 #dynamic build arguments coming from the /hook/build file
 ARG BUILD_DATE
