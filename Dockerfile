@@ -57,7 +57,7 @@ RUN apt-get update  \
     && rm -rf /var/lib/apt/lists/*
 
 #do ports
-EXPOSE 22 1217
+EXPOSE 22 1217 4840
 
 #do entrypoint
 COPY "./init.d/*" /etc/init.d/ 
